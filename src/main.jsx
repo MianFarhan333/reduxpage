@@ -7,9 +7,7 @@ import { store } from './Store/Store.jsx';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <Provider store={store}>
+  <Provider store={store}>
       <App />
-    </Provider>
-  </BrowserRouter>
+  </Provider>
 );
